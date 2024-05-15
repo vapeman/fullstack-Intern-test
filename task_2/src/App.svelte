@@ -1,32 +1,14 @@
 <script lang="ts">
-  import svelteLogo from './assets/svelte.svg'
-  import viteLogo from '/vite.svg'
-  import ConvertationForm from "./lib/ConvertationForm.svelte";
+  import ConversionForm from "./lib/ConversionForm.svelte";
 </script>
 
 <main>
 
   <div class="card">
-<!--    <Counter />-->
-    <ConvertationForm></ConvertationForm>
+    <ConversionForm></ConversionForm>
   </div>
 
 </main>
 
 <style>
-  .logo {
-    height: 6em;
-    padding: 1.5em;
-    will-change: filter;
-    transition: filter 300ms;
-  }
-  .logo:hover {
-    filter: drop-shadow(0 0 2em #646cffaa);
-  }
-  .logo.svelte:hover {
-    filter: drop-shadow(0 0 2em #ff3e00aa);
-  }
-  .read-the-docs {
-    color: #888;
-  }
 </style>

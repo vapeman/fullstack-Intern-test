@@ -152,13 +152,6 @@
     margin-top: 20px;
     margin-bottom: 20px;
 }
-.form--inputs-container {
-    flex-grow: 1;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
 .form--item {
     margin: 10px;
 }
@@ -170,9 +163,6 @@
     width: 90%;
 
 }
-.button, .button {
-     cursor: pointer;
- }
 select {
     width: 50%;
     margin-right: 11px;
@@ -181,7 +171,7 @@ select {
 input {
     width: 49%;
 }
-input, button, .button, select {
+input, select {
     outline: none;
     background-color: #111;
     border: 1px solid #262B33;
@@ -199,15 +189,15 @@ input, button, .button, select {
 input {
     text-indent: 10px;
 }
-input:hover, button:hover, .button:hover, select:hover {
+input:hover, select:hover {
     border-color: #39516E;
 }
-input:focus, button:active, .button:active, select:active {
+input:focus, select:active {
     border-color: #ADD8E6;
     background-color: #262B33;
     color: #c2c2c2;
 }
-input:disabled, button:disabled, .button:disabled, select:disabled {
+input:disabled, select:disabled {
     border-color: #2F343F;
     background-color: #262B33;
     color: #39516E;
